@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Garden · [Her Name]</title>
+<meta name="description" content="A year in the beds: garden photos and writing, season by season.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="wrap site-header">
+  <a class="brand" href="index.html">[Stephanie Acosta]</a>
+  <a class="back" href="index.html">Back to home</a>
+</header>
+
+<main>
+<section class="wrap split" style="padding-top:72px;padding-bottom:48px;align-items:flex-end">
+  <div class="col-text stack g24">
+    <div class="eyebrow">The Garden</div>
+    <h1 class="xl">A year in the beds</h1>
+  </div>
+  <p class="lede" style="flex:1 1 340px">Every season looks different out here. Pick one to see what was growing, blooming, or quietly resting.</p>
+</section>
+
+<section class="wrap" style="padding-bottom:32px">
+  <div class="filters" role="group" aria-label="Filter by season">
+    <button type="button" data-filter="all" aria-pressed="true">All seasons</button>
+    <button type="button" data-filter="spring" aria-pressed="false">Spring</button>
+    <button type="button" data-filter="summer" aria-pressed="false">Summer</button>
+    <button type="button" data-filter="autumn" aria-pressed="false">Autumn</button>
+    <button type="button" data-filter="winter" aria-pressed="false">Winter</button>
+  </div>
+</section>
+
+<!-- Gallery: set data-season on each tile to spring, summer, autumn or winter -->
+<section class="wrap" style="padding-bottom:96px">
+  <div class="grid-auto">
+    <figure data-season="spring"><div class="photo p-leaf r34"><img src="images/season-01.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Spring</figcaption></figure>
+    <figure data-season="summer"><div class="photo p-blush r43"><img src="images/season-02.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Summer</figcaption></figure>
+    <figure data-season="autumn"><div class="photo p-sand r43"><img src="images/season-03.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Autumn</figcaption></figure>
+    <figure data-season="winter"><div class="photo p-lagoon r34"><img src="images/season-04.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Winter</figcaption></figure>
+    <figure data-season="spring"><div class="photo p-leaf r43"><img src="images/season-05.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Spring</figcaption></figure>
+    <figure data-season="summer"><div class="photo p-blush r34"><img src="images/season-06.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Summer</figcaption></figure>
+    <figure data-season="autumn"><div class="photo p-sand r43"><img src="images/season-07.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Autumn</figcaption></figure>
+    <figure data-season="winter"><div class="photo p-lagoon r43"><img src="images/season-08.jpg" alt="" onerror="this.remove()"><span>[Garden photo]</span></div><figcaption>[Caption] · Winter</figcaption></figure>
+  </div>
+</section>
+
+<section class="band band-sand" style="padding:80px 0">
+  <div class="wrap stack g8">
+    <div class="rows-title">Garden writing</div>
+    <a class="row" href="post.html"><span class="date">[Date]</span><span class="title">[Garden post title]</span><span class="excerpt">[One or two lines from the post]</span></a>
+    <a class="row" href="post.html"><span class="date">[Date]</span><span class="title">[Garden post title]</span><span class="excerpt">[One or two lines from the post]</span></a>
+    <a class="row" href="post.html"><span class="date">[Date]</span><span class="title">[Garden post title]</span><span class="excerpt">[One or two lines from the post]</span></a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="brand">[Her Name]</span>
+    <a class="back" href="index.html">Back to home</a>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
